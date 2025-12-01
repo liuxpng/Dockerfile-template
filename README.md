@@ -10,6 +10,7 @@
 | `python-with-pip/` | python | Python 项目（传统方式） |
 | `php-fpm/` | php-fpm | PHP 项目 |
 | `nginx/` | nginx:alpine | 静态网站 / 反向代理 |
+| `node/` | node:alpine | Node.js 项目 |
 
 ## 使用方式
 
