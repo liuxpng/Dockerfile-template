@@ -12,6 +12,7 @@
 | `nginx/` | nginx:alpine | 静态网站 / 反向代理 |
 | `node/` | node:alpine | Node.js 项目 |
 | `go/` | scratch | Go 项目 |
+| `rust/` | scratch | Rust 项目 |
 
 ## 使用方式
 
