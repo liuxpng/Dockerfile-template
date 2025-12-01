@@ -1,5 +1,6 @@
 # Build stage
-FROM node:20-alpine AS builder
+ARG NODE_VERSION=20
+FROM node:${NODE_VERSION}-alpine AS builder
 
 WORKDIR /app
 
@@ -16,7 +17,8 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:20-alpine
+ARG NODE_VERSION=20
+FROM node:${NODE_VERSION}-alpine
 
 WORKDIR /app
 
