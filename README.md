@@ -13,6 +13,8 @@
 | `node/` | node:alpine | Node.js 项目 |
 | `go/` | scratch | Go 项目 |
 | `rust/` | scratch | Rust 项目 |
+| `cron-light/` | alpine | 定时任务（轻量版） |
+| `cron-full/` | debian-slim | 定时任务（完整版） |
 
 ## 使用方式
 
