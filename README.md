@@ -15,6 +15,7 @@
 | `rust/` | scratch | Rust 项目 |
 | `cron-light/` | alpine | 定时任务（轻量版） |
 | `cron-full/` | debian-slim | 定时任务（完整版） |
+| `supervisor/` | alpine | 多进程管理 |
 
 ## 使用方式
 
