@@ -4,10 +4,12 @@
 
 ## 模板列表
 
-| 目录 | 包管理工具 | 适用场景 |
-|------|-----------|----------|
-| `fastapi-with-uv/` | uv | Python 项目（推荐，构建快） |
-| `python-with-pip/` | pip | Python 项目（传统方式） |
+| 目录 | 基础镜像 | 适用场景 |
+|------|---------|----------|
+| `python-with-uv/` | python | Python 项目（推荐，构建快） |
+| `python-with-pip/` | python | Python 项目（传统方式） |
+| `php-fpm/` | php-fpm | PHP 项目 |
+| `nginx/` | nginx:alpine | 静态网站 / 反向代理 |
 
 ## 使用方式
 
